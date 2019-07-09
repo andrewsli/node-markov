@@ -76,6 +76,11 @@ function capitalize(word){
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
-let mm = new MarkovMachine("Hi my name is Billy. Billy likes Billy. Trains are  fun because Bart is fun.")
-mm.wordChain
+// let mm = new MarkovMachine("Hi my name is Billy. Billy likes Billy. Trains are  fun because Bart is fun.")
+// mm.wordChain
 
+module.exports = {
+  MarkovMachine,
+  randomElement,
+  capitalize
+}
